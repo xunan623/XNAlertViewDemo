@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711821711E07D13300207EB6 /* UIView+EasyShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118216E1E07D13300207EB6 /* UIView+EasyShow.m */; };
+		711821721E07D13300207EB6 /* XNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 711821701E07D13300207EB6 /* XNAlertView.m */; };
 		716B67DA1D6E84070058E545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B67D91D6E84070058E545 /* main.m */; };
 		716B67DD1D6E84070058E545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B67DC1D6E84070058E545 /* AppDelegate.m */; };
 		716B67E01D6E84070058E545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B67DF1D6E84070058E545 /* ViewController.m */; };
 		716B67E31D6E84070058E545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716B67E11D6E84070058E545 /* Main.storyboard */; };
 		716B67E51D6E84070058E545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716B67E41D6E84070058E545 /* Assets.xcassets */; };
 		716B67E81D6E84070058E545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716B67E61D6E84070058E545 /* LaunchScreen.storyboard */; };
-		716B67F21D6E8BB10058E545 /* XNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B67F11D6E8BB10058E545 /* XNAlertView.m */; };
-		716B67F51D6E950B0058E545 /* UIView+EasyShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B67F41D6E950B0058E545 /* UIView+EasyShow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7118216D1E07D13300207EB6 /* UIView+EasyShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyShow.h"; sourceTree = "<group>"; };
+		7118216E1E07D13300207EB6 /* UIView+EasyShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyShow.m"; sourceTree = "<group>"; };
+		7118216F1E07D13300207EB6 /* XNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNAlertView.h; sourceTree = "<group>"; };
+		711821701E07D13300207EB6 /* XNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNAlertView.m; sourceTree = "<group>"; };
 		716B67D51D6E84070058E545 /* XNAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XNAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716B67D91D6E84070058E545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		716B67DB1D6E84070058E545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		716B67E41D6E84070058E545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716B67E71D6E84070058E545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716B67E91D6E84070058E545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		716B67F01D6E8BB10058E545 /* XNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNAlertView.h; sourceTree = "<group>"; };
-		716B67F11D6E8BB10058E545 /* XNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNAlertView.m; sourceTree = "<group>"; };
-		716B67F31D6E950B0058E545 /* UIView+EasyShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyShow.h"; sourceTree = "<group>"; };
-		716B67F41D6E950B0058E545 /* UIView+EasyShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyShow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7118216C1E07D13300207EB6 /* XNAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7118216D1E07D13300207EB6 /* UIView+EasyShow.h */,
+				7118216E1E07D13300207EB6 /* UIView+EasyShow.m */,
+				7118216F1E07D13300207EB6 /* XNAlertView.h */,
+				711821701E07D13300207EB6 /* XNAlertView.m */,
+			);
+			path = XNAlertView;
+			sourceTree = "<group>";
+		};
 		716B67CC1D6E84070058E545 = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +75,7 @@
 		716B67D71D6E84070058E545 /* XNAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				716B67EF1D6E8B9E0058E545 /* XNAlertView */,
+				7118216C1E07D13300207EB6 /* XNAlertView */,
 				716B67DB1D6E84070058E545 /* AppDelegate.h */,
 				716B67DC1D6E84070058E545 /* AppDelegate.m */,
 				716B67DE1D6E84070058E545 /* ViewController.h */,
@@ -84,17 +95,6 @@
 				716B67D91D6E84070058E545 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		716B67EF1D6E8B9E0058E545 /* XNAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				716B67F31D6E950B0058E545 /* UIView+EasyShow.h */,
-				716B67F41D6E950B0058E545 /* UIView+EasyShow.m */,
-				716B67F01D6E8BB10058E545 /* XNAlertView.h */,
-				716B67F11D6E8BB10058E545 /* XNAlertView.m */,
-			);
-			path = XNAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,11 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711821721E07D13300207EB6 /* XNAlertView.m in Sources */,
 				716B67E01D6E84070058E545 /* ViewController.m in Sources */,
-				716B67F21D6E8BB10058E545 /* XNAlertView.m in Sources */,
-				716B67F51D6E950B0058E545 /* UIView+EasyShow.m in Sources */,
 				716B67DD1D6E84070058E545 /* AppDelegate.m in Sources */,
 				716B67DA1D6E84070058E545 /* main.m in Sources */,
+				711821711E07D13300207EB6 /* UIView+EasyShow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +320,7 @@
 				716B67EE1D6E84070058E545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
